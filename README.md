@@ -5,11 +5,9 @@ Home: https://github.com/rstudio/distill
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-distill-feedstock/blob/master/LICENSE.txt)
 
 Summary: Scientific and technical article format for the web. 'Distill' articles feature attractive, reader-friendly typography, flexible layout options for visualizations, and full support for footnotes and citations.
-
-
 
 Current build status
 ====================
