@@ -1,4 +1,4 @@
-{% set version = "1.2" %}
+{% set version = "1.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/distill_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/distill/distill_{{ version }}.tar.gz
-  sha256: c9e08ea20b47607efb2cb0c26bf2aee27f3adbaf565ec531bc46a3afbb84d188
+  sha256: 6544b1065c8a147b52d2aec76bdbe9f8ed65a16156200134097c61f6002510cb
 
 build:
   merge_build_host: true  # [win]
